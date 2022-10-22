@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f9ac64d-401d-4eda-b0e4-c60aebd96a92" name="Changes" comment="model rating -1 commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="4f9ac64d-401d-4eda-b0e4-c60aebd96a92" name="Changes" comment="model rating add requirements.txt" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666441078445</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="model rating add requirements.txt">
+      <created>1666455935289</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666455935289</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +164,8 @@
     <MESSAGE value="Initial commitgi" />
     <MESSAGE value="slq_avg rating" />
     <MESSAGE value="model rating -1 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="model rating -1 commit" />
+    <MESSAGE value="model rating add requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="model rating add requirements.txt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
