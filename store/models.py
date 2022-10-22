@@ -37,3 +37,17 @@ class UserBookRelation(models.Model):
 
     def __str__(self):
         return f'{self.user.username}: Price:{self.book.name}, RATE: {self.rate}'
+
+    def save(self, *args, **kwargs):
+        from store.logic import set_rating
+
+        creating = not self.pk
+        old_rating = None
+        if not creating:
+            old_rating = UserBookRelation.objects.get(id=self.id).rate
+
+        super().save(*args, **kwargs)
+
+        new_rating = self.rate
+        if new_rating != old_rating:
+            set_rating(self.book)

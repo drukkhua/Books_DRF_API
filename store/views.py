@@ -7,6 +7,7 @@ from rest_framework.mixins import UpdateModelMixin
 from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly
 from rest_framework.viewsets import ModelViewSet, GenericViewSet
 
+from store.logic import generate_data
 from store.models import Book, UserBookRelation
 from store.permissions import IsOwnerOrStaffOrReadOnly
 from store.serializers import BooksSerializer, UserBookRelationSerializer
@@ -53,3 +54,9 @@ class UserBookRelationView(UpdateModelMixin,
 
 def auth(request):
     return render(request, 'oauth.html')
+
+
+def generate_random_data(request):
+    generate_data(num=100)
+    # print('GENERATED!')
+    return render(request, 'index.html')
