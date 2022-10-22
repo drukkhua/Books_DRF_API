@@ -15,7 +15,6 @@ from store.serializers import BooksSerializer, UserBookRelationSerializer
 class BookViewSet(ModelViewSet):
     queryset = Book.objects.all().annotate(
         annotated_likes=Count(Case(When(userbookrelation__like=True, then=1))),
-        rating=Avg('userbookrelation__rate'),
         owner_name=F('owner__username')) \
         .prefetch_related('readers')
     # select_related('owner') - выберет связанный 1 объект по ForeignKey
