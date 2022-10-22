@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f9ac64d-401d-4eda-b0e4-c60aebd96a92" name="Changes" comment="model rating -1 commit">
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/logic.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/logic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/tests/test_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/tests/test_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/tests/test_logic.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/tests/test_logic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/tests/test_serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/tests/test_serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +19,7 @@
     </option>
   </component>
   <component name="Git.Rebase.Settings">
-    <option name="NEW_BASE" value="main" />
+    <option name="NEW_BASE" value="origin/model_calculate" />
   </component>
   <component name="Git.Settings">
     <favorite-branches>
@@ -44,7 +37,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="sql_calculate" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -94,6 +87,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests in test_logic.py" />
+        <item itemvalue="Python tests.Python tests in test_logic.py" />
       </list>
     </recent_temporary>
   </component>
@@ -107,7 +101,7 @@
       <updated>1666430056268</updated>
       <workItem from="1666430057829" duration="796000" />
       <workItem from="1666430862582" duration="35000" />
-      <workItem from="1666431296430" duration="7497000" />
+      <workItem from="1666431296430" duration="8812000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1666430236674</created>
@@ -130,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666432000343</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="model rating -1 commit">
+      <created>1666441056931</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666441056932</updated>
+    </task>
+    <task id="LOCAL-00005" summary="model rating -1 commit">
+      <created>1666441078445</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666441078445</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

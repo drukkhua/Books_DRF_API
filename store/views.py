@@ -58,5 +58,4 @@ def auth(request):
 
 def generate_random_data(request):
     generate_data(num=100)
-    # print('GENERATED!')
     return render(request, 'index.html')
